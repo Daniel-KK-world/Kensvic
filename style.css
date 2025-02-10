@@ -5,3 +5,48 @@
    display: block;
    margin: 0 auto;
 }
+.hero-bg {
+    background: url('images\kensvic-logo.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+.feature-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+@keyframes zoomEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+  .zooming-logo {
+    animation: zoomEffect 3s infinite ease-in-out;
+  }
+
+/* Wavy stuff*/
+@keyframes wave {
+    0%, 100% { transform: translateY(0); }
+    25% { transform: translateY(-5px); }
+    50% { transform: translateY(5px); }
+    75% { transform: translateY(-3px); }
+  }
+  
+  .wavy-header span {
+    display: inline-block;
+    animation: wave 1.5s infinite ease-in-out;
+  }
+  
+  .wavy-header span:nth-child(2) { animation-delay: 0.1s; }
+  .wavy-header span:nth-child(3) { animation-delay: 0.2s; }
+  .wavy-header span:nth-child(4) { animation-delay: 0.3s; }
+  .wavy-header span:nth-child(5) { animation-delay: 0.4s; }
+  /* Keep adding nth-child rules for longer words */
+  
+  /*dumb ass logo got too big */
+  .logo {
+    width: 80px; /* Adjust size */
+    height: auto; 
+    padding-left: -24px;
+    padding-right: 20px;
+}
