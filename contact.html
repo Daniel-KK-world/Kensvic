@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kensvic Communications</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-yellow-600 sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container">
+                <img src="images/kensvic-logo.jpg" alt="Kensvic Logo" class="logo img-fluid">
+                <a class="navbar-brand" href="">Kensvic Communication</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="contact.html">CONTACT</a>
+                        </li>
+
+                        <div class="container text-end">
+                            <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank" class="text-white me-3 text-end">
+                                <i class="fab fa-facebook fa-lg"></i>
+                            </a>
+                            <a href="https://www.instagram.com/ghanaceoandindustrialawards?utm_source=qr&igsh=MXc0bTQ5NGR6c2RzMw==" target="_blank" class="text-white me-3 text-end">
+                                <i class="fab fa-instagram fa-lg"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="text-white text-end">
+                                <i class="fab fa-twitter fa-lg"></i>
+                            </a>
+                
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-center text-dark align-items-center justify-content-center" id="hero-section">
+        <img src="images/kensvic-logo.jpg" alt="Kensvic-logo" class="img-fluid py-100 zooming-logo">
+        <div class="hero-container">
+            <h1 class="wavy-header">
+                <span class="text-primary">K</span><span class="text-warning">E</span><span class="text-primary">N</span><span class="text-warning">S</span><span class="text-primary">V</span><span class="text-warning">I</span><span class="text-primary">C</span>
+            </h1>
+            <p class=" text-center text-muted neon-text">Connecting People, Creating Possibilities.</p>
+            <a href="https://forms.gle/62DH26S8zbuShGPL7" class="btn btn-primary btn-lg glitch-text">Nominate Now</a>
+        </div>
+    </section>
+     <div class="transition-section"></div>
+   <main>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .contact-section {
+            background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+            padding: 60px 0;
+        }
+        .contact-info i {
+            font-size: 1.5rem;
+            color: #0d6efd;
+        }
+        .contact-form {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .map-container {
+            height: 400px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-left: 60px;
+            margin-right:60px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-primary">Contact Us</h2>
+                <p class="text-muted">We’d love to hear from you! Get in touch with us.</p>
+            </div>
+            
+            <div class="row">
+                <!-- Contact Information -->
+                <div class="col-md-5">
+                    <div class="contact-info mb-4">
+                        <h4 class="text-dark">Get in Touch</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Accra, Ghana</p>
+                        <p><i class="fas fa-envelope"></i> info@kensvic.com</p>
+                        <p><i class="fas fa-phone"></i> +233 53 245 7157</p>
+                        <p><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <h4 class="mb-3 text-dark">Send Us a Message</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Google Map -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="map-container">
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.7244233514946!2d2.2922923156747666!3d48.858844279287996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66df67d9004b7%3A0x424c4b8ad3ca5382!2sEiffel%20Tower!5e0!3m2!1sen!2sus!4v1617484289570!5m2!1sen!2sus" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"></iframe>
+                      
+                      
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    </body>
+    </main>
+     <!-- Footer -->
+     <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-3">Follow us on:</p>
+            <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank" class="text-white me-3">
+                <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com/ghanaceoandindustrialawards?utm_source=qr&igsh=MXc0bTQ5NGR6c2RzMw==" target="_blank" class="text-white me-3">
+                <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="text-white">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Kensvic Communications. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
