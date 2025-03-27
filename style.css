@@ -171,7 +171,14 @@ body{
     margin: 0 auto; /* Centers it */
   }
   
-
+  .gradient {
+    background: linear-gradient(to right, #008baa, #7e42a7, #6070fd, #2a46ff, #008baa);
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
 
   /*Now the section headers*/
   .section-headers{
