@@ -160,8 +160,6 @@ body{
     animation: glitch 0.5s infinite;
   }
 
-/* Now the glitch good stuff*/
-
   
   .responsive-text {
     word-wrap: break-word; 
@@ -171,15 +169,6 @@ body{
     margin: 0 auto; /* Centers it */
   }
   
-  .gradient {
-    background: linear-gradient(to right, #008baa, #7e42a7, #6070fd, #2a46ff, #008baa);
-    background-size: 400%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: animate-gradient 2.5s linear infinite;
-}
-
   /*Now the section headers*/
   .section-headers{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
