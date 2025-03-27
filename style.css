@@ -162,15 +162,6 @@ body{
 
 /* Now the glitch good stuff*/
 
-
-
-  /*Mobile compatibility */
-  @media (max-width: 768px) {
-    .neon-text, .glitch-text, .rainbow-text {
-      font-size: 1.8rem;  /* Scale down text */
-      text-align: center; /* Keep it centered */
-    }
-  }
   
   .responsive-text {
     word-wrap: break-word; 
